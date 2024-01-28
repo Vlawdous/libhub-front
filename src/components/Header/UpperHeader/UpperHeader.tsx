@@ -1,4 +1,3 @@
-import React from 'react';
 import cl from './UpperHeader.module.css'
 
 const UpperHeader = () => {
@@ -9,4 +8,4 @@ const UpperHeader = () => {
     );
 };
 
-export default UpperHeader;
+export default UpperHeader

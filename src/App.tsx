@@ -1,14 +1,13 @@
-import './styles/App.css'
-import Header from "./components/Header/Header";
+import '@/styles/App.scss'
+import {JSX} from "react"
+import AppRouter from "@components/Routers/AppRouter.tsx"
 
-function App() {
-
+function App(): JSX.Element {
     return (
         <div className="App">
-            <Header>
-
-            </Header>
+            <AppRouter />
         </div>
     )
 }
+
 export default App
