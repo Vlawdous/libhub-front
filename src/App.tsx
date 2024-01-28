@@ -1,12 +1,14 @@
-import React from 'react'
-import Test from "@components/Test/Test.tsx";
+import './styles/App.css'
+import Header from "./components/Header/Header";
 
-const App: React.FC = () => {
+function App() {
+
     return (
-        <div>
-            <Test/>
+        <div className="App">
+            <Header>
+
+            </Header>
         </div>
     )
 }
-
-export default App;
+export default App

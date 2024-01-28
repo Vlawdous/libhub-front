@@ -1,0 +1,47 @@
+.Header {
+    width: 100%;
+    color: whitesmoke;
+}
+
+.HeaderContent {
+    display: inline-flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 12px 10%;
+    background-color: var(--brand-blue-400);
+}
+
+.logo {
+    background-image: url("src/assets/header/book-icons.svg");
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+/*todo убрать чутка позже*/
+.profile {
+    display: flex;
+    align-items: center;
+}
+/*todo убрать чутка позже*/
+.user, .cart {
+    height: 32px;
+    width: 32px;
+    border: none;
+    background-color: transparent;
+    background-size: cover;
+    cursor: pointer;
+}
+/*todo убрать чутка позже*/
+.user {
+    background-image: url("src/assets/header/user.svg")
+}
+/*todo убрать чутка позже*/
+.cart {
+    margin-left: 16px;
+    background-image: url("src/assets/header/cart.svg");
+}
+
+
