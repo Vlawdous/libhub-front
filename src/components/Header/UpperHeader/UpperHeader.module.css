@@ -1,0 +1,6 @@
+.UpperHeader {
+    background-color: var(--brand-blue-600);
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
