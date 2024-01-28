@@ -1,16 +1,12 @@
 import {FC, JSX, PropsWithChildren} from 'react'
-import DefaultLayout from "@components/Layouts/Variations/DefaultLayout.tsx";
+import layoutComponentByTypeMap from "layouts/layouts.ts";
 
 interface LayoutProps {
     type: string
     element: JSX.Element
 }
-
-const layoutComponentByTypeMap = {
-    default: DefaultLayout
-}
 function Layout(props: LayoutProps): JSX.Element {
-    const LayoutComponent: FC<PropsWithChildren> = layoutComponentByTypeMap[props.type as keyof typeof layoutComponentByTypeMap]
+    const LayoutComponent: FC<PropsWithChildren> = layoutComponentByTypeMap[props.type]
 
     return (
         <LayoutComponent>
