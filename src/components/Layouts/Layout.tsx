@@ -1,5 +1,5 @@
 import {FC, JSX, PropsWithChildren} from 'react'
-import layoutComponentByTypeMap from "layouts/layouts.ts";
+import layoutComponentByTypeMap from '@layouts/layouts.ts'
 
 interface LayoutProps {
     type: string
@@ -7,7 +7,6 @@ interface LayoutProps {
 }
 function Layout(props: LayoutProps): JSX.Element {
     const LayoutComponent: FC<PropsWithChildren> = layoutComponentByTypeMap[props.type]
-
     return (
         <LayoutComponent>
             {props.element}
