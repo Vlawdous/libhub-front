@@ -1,6 +1,6 @@
 import '@styles/App.scss'
 import {JSX} from "react"
-import AppRouter from "@components/Routers/AppRouter.tsx"
+import AppRouter from "@components/Router/AppRouter.tsx"
 
 function App(): JSX.Element {
     return (

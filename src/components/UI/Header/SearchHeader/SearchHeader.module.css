@@ -48,7 +48,7 @@
 .SearchBtnImg {
     width: 32px;
     height: 32px;
-    background-image: url("src/assets/header/search.svg");
+    background-image: url("../../../../assets/header/search.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

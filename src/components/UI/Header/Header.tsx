@@ -1,6 +1,6 @@
 import cl from "./Header.module.css"
-import UpperHeader from "@components/Header/UpperHeader/UpperHeader"
-import SearchHeader from "@components/Header/SearchHeader/SearchHeader"
+import UpperHeader from "@components/UI/Header/UpperHeader/UpperHeader.tsx"
+import SearchHeader from "@components/UI/Header/SearchHeader/SearchHeader.tsx"
 
 const Header = () => {
     return (
