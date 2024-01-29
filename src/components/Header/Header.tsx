@@ -1,7 +1,6 @@
-import React from 'react';
-import cl from "./Header.module.css";
-import UpperHeader from "@components/Header/UpperHeader/UpperHeader";
-import SearchHeader from "@components/Header/SearchHeader/SearchHeader";
+import cl from "./Header.module.css"
+import UpperHeader from "@components/Header/UpperHeader/UpperHeader"
+import SearchHeader from "@components/Header/SearchHeader/SearchHeader"
 
 const Header = () => {
     return (
@@ -24,4 +23,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Header

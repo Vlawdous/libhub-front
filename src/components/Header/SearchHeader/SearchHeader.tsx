@@ -1,4 +1,3 @@
-import React from 'react';
 import cl from './SearchHeader.module.css'
 
 const SearchHeader = () => {
@@ -14,7 +13,7 @@ const SearchHeader = () => {
                 </button>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default SearchHeader;
+export default SearchHeader
