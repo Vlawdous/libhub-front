@@ -11,7 +11,7 @@ function AppRouter(): JSX.Element {
             <Routes>
                 <Route path="/" element={DefaultLayout()} errorElement={ErrorPage()}>
                     <Route index element={MainPage()}/>
-                    <BookRoutes />
+                    {/*<BookRoutes/>*/}
                 </Route>
             </Routes>
         </Router>
