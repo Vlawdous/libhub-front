@@ -1,11 +1,12 @@
 import React from 'react';
 import cl from './Footer.module.scss'
+import {Layout} from "antd";
 
 const Footer = () => {
     return (
-        <div className={cl.Footer}>
+        <Layout.Footer>
             <img className={cl.rofl} src={'https://i.imgur.com/uQCPP4v.png'} alt={'rofl'}/>
-        </div>
+        </Layout.Footer>
     );
 };
 

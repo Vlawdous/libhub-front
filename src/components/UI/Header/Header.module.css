@@ -1,17 +1,23 @@
-.Header {
-    width: 100%;
-    color: whitesmoke;
+.HeaderContainer {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
     position: sticky;
     top: 0;
+    z-index: 1;
+    min-width: 100%;
 }
 
-.HeaderContent {
-    display: inline-flex;
-    justify-content: space-between;
-
+.Header {
+    background-color: var(--brand-blue-700);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     width: 100%;
-    padding: 12px 10%;
-    background-color: var(--brand-blue-400);
+    height: auto;
+    max-height: 1000px;
 }
 
 .logo {

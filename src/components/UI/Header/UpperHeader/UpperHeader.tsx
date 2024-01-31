@@ -1,11 +1,12 @@
 import cl from './UpperHeader.module.css'
+import {JSX} from "react";
 
-const UpperHeader = () => {
+function UpperHeader(): JSX.Element {
     return (
         <div className={cl.UpperHeader}>
-            some info here
+            <span>info here</span>
         </div>
-    );
-};
+    )
+}
 
 export default UpperHeader

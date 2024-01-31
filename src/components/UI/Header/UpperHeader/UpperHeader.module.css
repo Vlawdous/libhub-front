@@ -1,6 +1,9 @@
 .UpperHeader {
+    display: flex;
     background-color: var(--brand-blue-600);
     justify-content: center;
-    text-align: center;
+    align-items: center;
     font-size: 12px;
+    min-width: 100%;
+    height: 20px;
 }
