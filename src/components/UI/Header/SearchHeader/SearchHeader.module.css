@@ -10,28 +10,9 @@
     background-color: var(--brand-blue-600);
     border-radius: 8px;
     display: flex;
+    flex-wrap: wrap;
     padding: 2px;
-}
-
-.Catalog {
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
-    min-width: 80px;
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
-    background-color: var(--brand-blue-600);
-    color: #fff;
-    border: var(--brand-blue-600) 1px solid;
-}
-
-.Search {
-    border: var(--brand-blue-600) 1px solid;
-    outline: none;
-    border-radius: 8px;
-    min-width: 400px;
-    font-size: 16px;
-    line-height: 48px;
+    align-content: center;
 }
 
 .SearchBtn {
@@ -42,17 +23,6 @@
     background-color: var(--brand-blue-600);
     color: #fff;
     border: var(--brand-blue-600) 1px solid;
-
-}
-
-.SearchBtnImg {
-    width: 32px;
-    height: 32px;
-    background-image: url("../../../../assets/header/search.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: auto;
 }
 
 
