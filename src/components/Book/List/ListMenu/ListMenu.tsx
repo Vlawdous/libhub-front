@@ -1,54 +1,38 @@
-import React, {JSX} from 'react'
+import {JSX} from 'react'
 import type { MenuProps } from 'antd'
 import { Menu } from 'antd'
 import css from "./ListMenu.module.scss"
-
-type MenuItem = Required<MenuProps>['items'][number];
-
-function getItem(
-    label: React.ReactNode,
-    key: React.Key,
-    children?: MenuItem[],
-    type?: 'group',
-): MenuItem {
-    return {
-        key,
-        children,
-        label,
-        type,
-    } as MenuItem;
-}
+import {getMenuItem} from "@utils/Menu/MenuUtils.ts"
+import {useSingleOpenMenu} from "@hooks/SingleOpenMenu.ts"
 
 const items: MenuProps['items'] = [
-    getItem('Фантастика', 'sub1', [
-        getItem('Научная', 'g1', [getItem('Option 1', '1'), getItem('Option 2', '2')], 'group'),
-        getItem('Не научная', 'g2', [getItem('Option 3', '3'), getItem('Option 4', '4')], 'group'),
+    getMenuItem('Фантастика', 'sub1', [
+        getMenuItem('Научная', 'g1', [getMenuItem('Option 1', '1'), getMenuItem('Option 2', '2')], 'group'),
+        getMenuItem('Не научная', 'g2', [getMenuItem('Option 3', '3'), getMenuItem('Option 4', '4')], 'group'),
     ]),
 
-    getItem('Научная', 'sub2', [
-        getItem('Программирование', '5'),
-        getItem('Кулинария', '6'),
-        getItem('Прикол', 'sub3', [getItem('Option 7', '7'), getItem('Option 8', '8')]),
+    getMenuItem('Научная', 'sub2', [
+        getMenuItem('Программирование', '5'),
+        getMenuItem('Кулинария', '6'),
+        getMenuItem('Прикол', 'sub3', [getMenuItem('Option 7', '7'), getMenuItem('Option 8', '8')]),
     ]),
 
-    getItem('Журнальчики', 'sub4', [
-        getItem('Кек 1', '9'),
-        getItem('Кек 2', '10'),
-        getItem('Кек 3', '11'),
-        getItem('Кек 4', '12'),
+    getMenuItem('Журнальчики', 'sub4', [
+        getMenuItem('Кек 1', '9'),
+        getMenuItem('Кек 2', '10'),
+        getMenuItem('Кек 3', '11'),
+        getMenuItem('Кек 4', '12'),
     ])
 ];
 
 function ListContent(): JSX.Element {
-    const onClick: MenuProps['onClick'] = (e) => {
-        console.log('click ', e);
-    };
-
+    const [openKey, useOpenMenuKey] = useSingleOpenMenu()
     return (
         <Menu
             className={css.ListMenu}
-            onClick={onClick}
             style={{ width: 256 }}
+            openKeys={openKey}
+            onOpenChange={useOpenMenuKey}
             mode="inline"
             items={items}
         />
