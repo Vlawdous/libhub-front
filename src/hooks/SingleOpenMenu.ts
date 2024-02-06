@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {MenuProps} from "antd";
 
-type useSingleOpenMenuReturn = [string[]|undefined, MenuProps['onOpenChange']]
+type useSingleOpenMenuReturn = [string[], MenuProps['onOpenChange']]
 export function useSingleOpenMenu(initialOpenMenuKey: string[] = []): useSingleOpenMenuReturn {
     const [openMenuKeys, setOpenMenuKey] = useState(initialOpenMenuKey)
 
