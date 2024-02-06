@@ -1,3 +1,5 @@
+@import "./src/styles/App";
+
 .Catalog {
     cursor: pointer;
     font-size: 14px;
@@ -5,7 +7,7 @@
     min-width: 80px;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
-    background-color: var(--brand-blue-600);
+    background-color: $brand-blue-600;
     color: #fff;
-    border: var(--brand-blue-600) 1px solid;
+    border: $brand-blue-600 1px solid;
 }

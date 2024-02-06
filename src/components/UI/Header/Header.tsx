@@ -1,4 +1,4 @@
-import cl from "./Header.module.css"
+import cl from "./Header.module.scss"
 import SearchHeader from "@components/UI/Header/SearchHeader/SearchHeader.tsx"
 import {Flex, Layout} from "antd"
 import UpperHeader from "@components/UI/Header/UpperHeader/UpperHeader.tsx"
@@ -10,7 +10,7 @@ function Header(): JSX.Element {
         <>
             <UpperHeader/>
             <Layout.Header className={cl.Header}>
-                <Flex align="center" wrap="wrap" gap={10}>
+                <Flex className={cl.HeaderContainer}>
                     <Logo />
                     <SearchHeader />
                     {/*todo убрать чутка позже*/}

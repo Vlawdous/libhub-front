@@ -1,10 +1,13 @@
+@import "./src/styles/App";
+
 .Search {
     height: 100%;
     outline: none;
-    border-radius: 8px;
-    min-width: 400px;
+    border-radius: $step * 2;
     font-size: 16px;
+    min-width: $step * 50;
     line-height: 48px;
+    flex-grow: 1;
 }
 
 .SearchItem {

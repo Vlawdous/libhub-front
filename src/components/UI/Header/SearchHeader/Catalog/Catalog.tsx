@@ -1,5 +1,5 @@
 import {Dropdown} from "antd";
-import cl from "@components/UI/Header/SearchHeader/Catalog/Catalog.module.css";
+import cl from "@components/UI/Header/SearchHeader/Catalog/Catalog.module.scss";
 import {MenuUnfoldOutlined} from "@ant-design/icons";
 
 const items = [

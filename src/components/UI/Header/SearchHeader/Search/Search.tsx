@@ -2,7 +2,7 @@
 import React, {useState} from 'react';
 import {AutoComplete} from 'antd';
 import SearchItem from './SearchItem';
-import cl from "@components/UI/Header/SearchHeader/Search/Search.module.css";
+import cl from "@components/UI/Header/SearchHeader/Search/Search.module.scss";
 import mockData from './mock'
 
 const Search: React.FC = () => {

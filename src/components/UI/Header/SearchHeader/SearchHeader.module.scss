@@ -1,18 +1,22 @@
+@import "./src/styles/App";
+
 .SearchHeader {
     border-radius: 8px;
     display: flex;
-    min-width: 500px;
     height: 48px;
-    margin: auto;
+    flex-grow: 0.8;
+    justify-content: center;
 }
 
 .SearchHeaderContent {
-    background-color: var(--brand-blue-600);
+    background-color: $brand-blue-600;
     border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
     padding: 2px;
     align-content: center;
+    flex-grow: 0.8;
+
 }
 
 .SearchBtn {
@@ -20,9 +24,9 @@
     min-width: 80px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
-    background-color: var(--brand-blue-600);
+    background-color: $brand-blue-600;
     color: #fff;
-    border: var(--brand-blue-600) 1px solid;
+    border: $brand-blue-600 1px solid;
 }
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Avatar } from 'antd';
-import cl from "@components/UI/Header/SearchHeader/Search/Search.module.css";
+import cl from "@components/UI/Header/SearchHeader/Search/Search.module.scss";
 
 interface SearchItemProps {
     item: {
@@ -13,7 +13,7 @@ interface SearchItemProps {
 
 const SearchItem: React.FC<SearchItemProps> = ({ item }) => (
     <div className={cl.SearchItem}>
-        <Avatar src={item.img} size="medium" />
+        <Avatar src={item.img} size="small" />
             <div className={cl.name}>{item.name}</div>
             <div className={cl.author}>{item.author}</div>
         <div className={cl.price}>{item.price}</div>

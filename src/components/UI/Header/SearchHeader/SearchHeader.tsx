@@ -1,4 +1,4 @@
-import cl from './SearchHeader.module.css'
+import cl from './SearchHeader.module.scss'
 import {SearchOutlined} from "@ant-design/icons";
 import Catalog from "@components/UI/Header/SearchHeader/Catalog/Catalog";
 import Search from "@components/UI/Header/SearchHeader/Search/Search";
