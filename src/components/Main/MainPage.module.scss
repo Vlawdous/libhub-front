@@ -1,4 +1,6 @@
+@import "./src/styles/App";
+
 .MainPage {
-  margin-top: calc(var(--step) * 8);
-  font-size: calc(var(--step) * 24);
+  margin-top: $step * 8;
+  font-size:  $step * 24;
 }

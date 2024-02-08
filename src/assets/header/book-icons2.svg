@@ -1,0 +1,25 @@
+<svg width="800px" height="800px" viewBox="-1.45 0 64.905 64.905" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(-318 -36.428)">
+    <path d="M349,51,325.124,44.75A4.8,4.8,0,0,0,319,49.369v39.34a4.8,4.8,0,0,0,3.484,4.619l26.516,7,26.516-7A4.8,4.8,0,0,0,379,88.709V49.369a4.8,4.8,0,0,0-6.124-4.619Z" fill="#99ecff" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M349,44.286l-26-6.858V88l26,6.858L375,88V37.428Z" fill="#e8f7f9" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g>
+      <line x1="10.333" y2="2.953" transform="translate(355 53.857)" fill="#ffffff" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="10.333" y2="2.953" transform="translate(355 62.047)" fill="#ffffff" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="10.333" y2="2.953" transform="translate(355 71.047)" fill="#ffffff" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g>
+      <line x2="10.333" y2="2.953" transform="translate(332 53.857)" fill="#ffffff" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x2="10.333" y2="2.953" transform="translate(332 62.047)" fill="#ffffff" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x2="10.333" y2="2.953" transform="translate(332 71.047)" fill="#ffffff" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <line y2="5" transform="translate(349 95)" fill="#ffffff" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line y2="4" transform="translate(349 45)" fill="#ffffff" stroke="#333" stroke-miterlimit="10" stroke-width="2"/>
+    <line y2="4" transform="translate(349 51)" fill="#ffffff" stroke="#333" stroke-miterlimit="10" stroke-width="2"/>
+    <line y2="4" transform="translate(349 57)" fill="#ffffff" stroke="#333" stroke-miterlimit="10" stroke-width="2"/>
+    <line y2="4" transform="translate(349 63)" fill="#ffffff" stroke="#333" stroke-miterlimit="10" stroke-width="2"/>
+    <line y2="4" transform="translate(349 69)" fill="#ffffff" stroke="#333" stroke-miterlimit="10" stroke-width="2"/>
+    <line y2="4" transform="translate(349 75)" fill="#ffffff" stroke="#333" stroke-miterlimit="10" stroke-width="2"/>
+    <line y2="4" transform="translate(349 81)" fill="#ffffff" stroke="#333" stroke-miterlimit="10" stroke-width="2"/>
+    <line y2="4" transform="translate(349 87)" fill="#ffffff" stroke="#333" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

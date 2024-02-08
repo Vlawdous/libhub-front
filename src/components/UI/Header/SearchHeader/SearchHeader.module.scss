@@ -1,0 +1,33 @@
+@import "./src/styles/App";
+
+.SearchHeader {
+    border-radius: 8px;
+    display: flex;
+    height: 48px;
+    flex-grow: 0.8;
+    justify-content: center;
+}
+
+.SearchHeaderContent {
+    background-color: $brand-blue-600;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    align-content: center;
+    flex-grow: 0.8;
+
+}
+
+.SearchBtn {
+    cursor: pointer;
+    min-width: 80px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: $brand-blue-600;
+    color: #fff;
+    border: $brand-blue-600 1px solid;
+}
+
+
+
