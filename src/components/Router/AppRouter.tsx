@@ -9,9 +9,9 @@ function AppRouter(): JSX.Element {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={DefaultLayout()} errorElement={ErrorPage()}>
-                    <Route index element={MainPage()}/>
-                    {/*<BookRoutes/>*/}
+                <Route path="/" element={<DefaultLayout />} errorElement={<ErrorPage />}>
+                    <Route index element={<MainPage />}/>
+                    {BookRoutes()}
                 </Route>
             </Routes>
         </Router>

@@ -1,15 +1,16 @@
-import cl from './SearchHeader.module.css'
+import cl from './SearchHeader.module.scss'
+import {SearchOutlined} from "@ant-design/icons";
+import Catalog from "@components/UI/Header/SearchHeader/Catalog/Catalog";
+import Search from "@components/UI/Header/SearchHeader/Search/Search";
 
 const SearchHeader = () => {
     return (
         <div className={cl.SearchHeader}>
             <div className={cl.SearchHeaderContent}>
-                <button className={cl.Catalog}>
-                    Каталог
-                </button>
-                <input className={cl.Search} placeholder="Я ищу..."/>
+                <Catalog />
+                <Search />
                 <button className={cl.SearchBtn}>
-                    <div className={cl.SearchBtnImg}></div>
+                    <SearchOutlined style={{fontSize: '32px'}}/>
                 </button>
             </div>
         </div>

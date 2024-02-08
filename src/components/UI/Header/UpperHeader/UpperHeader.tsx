@@ -1,4 +1,4 @@
-import cl from './UpperHeader.module.css'
+import cl from './UpperHeader.module.scss'
 import {JSX} from "react";
 
 function UpperHeader(): JSX.Element {

@@ -1,4 +1,3 @@
-import React from 'react';
 import cl from './Footer.module.scss'
 import {Layout} from "antd";
 
