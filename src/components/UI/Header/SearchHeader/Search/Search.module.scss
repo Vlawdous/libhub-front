@@ -1,9 +1,8 @@
-@import "./src/styles/App";
+@import "@styles/App";
 
 .Search {
     height: 100%;
     outline: none;
-    border-radius: $step * 2;
     font-size: 16px;
     min-width: $step * 50;
     line-height: 48px;

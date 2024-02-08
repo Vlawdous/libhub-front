@@ -4,8 +4,7 @@ import {Link} from "react-router-dom";
 
 function Logo(): JSX.Element {
     return (
-        <Link to="/" className={cl.logo}>
-        </Link>
+        <Link to="/" className={cl.logo} />
     );
 }
 export default Logo;
