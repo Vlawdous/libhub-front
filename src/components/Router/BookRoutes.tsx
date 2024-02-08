@@ -6,8 +6,8 @@ import ViewPage from "@components/Book/View/ViewPage.tsx";
 function BookRoutes(): JSX.Element {
     return (
         <>
-            <Route path="books" element={ListPage()} />
-            <Route path="books/:id" element={ViewPage()} />
+            <Route path="books" element={<ListPage/>}/>
+            <Route path="books/:id" element={<ViewPage/>}/>
         </>
     )
 }
