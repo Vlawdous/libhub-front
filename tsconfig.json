@@ -24,9 +24,11 @@
     "paths": {
       "@components/*": ["components/*"],
       "@assets/*": ["assets/*"],
+      "@public/*": ["public/*"],
       "@hooks/*": ["hooks/*"],
       "@utils/*": ["utils/*"],
-      "@styles/*": ["styles/*"]
+      "@styles/*": ["styles/*"],
+      "@API/*": ["API/*"]
     }
   },
   "include": ["src"],

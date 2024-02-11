@@ -8,22 +8,23 @@
     justify-content: center;
 }
 
+.my-select-container .ant-select .ant-select-selector {
+    border-radius: $step;
+}
+
 .SearchHeaderContent {
     background-color: $brand-blue-600;
-    border-radius: 8px;
+    border-radius: $step;
     display: flex;
     flex-wrap: wrap;
-    padding: 2px;
+    padding: $step * 0.5;
     align-content: center;
     flex-grow: 0.8;
-
 }
 
 .SearchBtn {
     cursor: pointer;
     min-width: 80px;
-    border-bottom-right-radius: 8px;
-    border-top-right-radius: 8px;
     background-color: $brand-blue-600;
     color: #fff;
     border: $brand-blue-600 1px solid;

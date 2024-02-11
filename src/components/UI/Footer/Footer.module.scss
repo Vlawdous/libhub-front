@@ -1,10 +1,39 @@
+@import "@styles/App.scss";
+
 .Footer {
   width: 100%;
-  color: whitesmoke;
+  background-color: $brand-blue-100;
 }
 
-.rofl {
-  max-width: 100%;
-  height: auto;
-  display: block;
+.FooterContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: $step * 10;
+  color: $base-500;
+}
+
+.FooterColumn {
+  display: grid;
+  width: 50%;
+  padding: 0 $step * 20;
+}
+
+.ColumnItem {
+  margin-top: $step * 5;
+}
+
+.Social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.SocialLink {
+  cursor: pointer;
+  fill: $base-400;
+  color: $base-400;
+}
+
+.SocialLink:hover {
+  fill: $base-600;
+  color: $base-600;
 }

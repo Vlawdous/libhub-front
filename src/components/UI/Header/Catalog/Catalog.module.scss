@@ -1,0 +1,19 @@
+@import "@styles/App.scss";
+
+.Catalog {
+    cursor: pointer;
+    border-radius: $step;
+    font-size: $step * 4;
+    font-weight: bold;
+    margin-left: 40px;
+    height: 48px;
+    line-height: 48px;
+    background-color: $brand-blue-600;
+    color: #fff;
+    border: $brand-blue-600 1px solid;
+    padding: 0 10px;
+}
+
+.CatalogImg {
+    margin-right: $step*2;
+}
