@@ -1,4 +1,4 @@
-import generateRandomImage from '@API/AnimePicture'
+import generateRandomImage from '@api/AnimePicture'
 
 const mockData = [
     {name: 'Нагаторо', author: 'Манга Мангович', price: '450 Р'},

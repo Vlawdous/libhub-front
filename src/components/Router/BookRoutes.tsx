@@ -1,7 +1,7 @@
 import {JSX} from "react";
 import {Route} from "react-router-dom";
-import ListPage from "@components/Book/List/ListPage.tsx";
-import ViewPage from "@components/Book/View/ViewPage.tsx";
+import ListPage from "@components/Page/Book/List/ListPage.tsx";
+import ViewPage from "@components/Page/Book/View/ViewPage.tsx";
 
 function BookRoutes(): JSX.Element {
     return (

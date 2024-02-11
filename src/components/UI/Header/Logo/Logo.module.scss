@@ -1,7 +1,5 @@
-@import "./src/styles/App";
-
 .logo {
-  background-image: url("../../../../assets/header/book-icons2.svg");
+  background-image: url("@public/assets/header/book-icons2.svg");
   height: $step * 16;
   width: $step * 16;
   background-size: cover;

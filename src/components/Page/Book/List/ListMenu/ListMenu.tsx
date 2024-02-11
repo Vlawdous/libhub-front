@@ -3,7 +3,6 @@ import type { MenuProps } from 'antd'
 import { Menu } from 'antd'
 import css from "./ListMenu.module.scss"
 import {getMenuItem} from "@utils/Menu/MenuUtils.ts"
-import {useSingleOpenMenu} from "@hooks/SingleOpenMenu.ts"
 
 const items: MenuProps['items'] = [
     getMenuItem('Фантастика', 'sub1', [
@@ -26,13 +25,10 @@ const items: MenuProps['items'] = [
 ];
 
 function ListContent(): JSX.Element {
-    const [openKey, useOpenMenuKey] = useSingleOpenMenu()
     return (
         <Menu
             className={css.ListMenu}
             style={{ width: 256 }}
-            openKeys={openKey}
-            onOpenChange={useOpenMenuKey}
             mode="inline"
             items={items}
         />
