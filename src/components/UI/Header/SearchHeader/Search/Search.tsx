@@ -12,7 +12,7 @@ const Search: React.FC = () => {
         query
             ? mockData
                 .filter((item) =>
-                    `${item.name} ${item.author} ${item.img} ${item.price}`
+                    `${item.name} ${item.author} ${item.imgUrl} ${item.price}`
                         .toLowerCase()
                         .includes(query.toLowerCase())
                 )

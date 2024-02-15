@@ -24,28 +24,3 @@
 
 }
 
-/*todo убрать чутка позже*/
-.profile {
-    display: flex;
-    align-items: center;
-}
-/*todo убрать чутка позже*/
-.user, .cart {
-    height: 32px;
-    width: 32px;
-    border: none;
-    background-color: transparent;
-    background-size: cover;
-    cursor: pointer;
-}
-/*todo убрать чутка позже*/
-.user {
-    background-image: url("@public/header/user.svg")
-}
-/*todo убрать чутка позже*/
-.cart {
-    margin-left: 16px;
-    background-image: url("@public/header/cart.svg");
-}
-
-

@@ -1,6 +1,13 @@
 import generateRandomImage from '@API/AnimePicture'
 
-const mockData = [
+interface IMockData {
+    name: string;
+    author: string;
+    price: string;
+    imgUrl?: string;
+}
+
+const mockData: IMockData[] = [
     {name: 'Нагаторо', author: 'Манга Мангович', price: '450 Р'},
     {name: 'Великолепный Сговорщик', author: 'Сумираги Ако', price: '450 Р'},
     {name: 'Атака Титанов', author: 'Исаяма Хадзимэ', price: '500 Р'},
@@ -17,7 +24,7 @@ const mockData = [
 async function addImagesToMockData() {
     for (const item of mockData) {
         const image = await generateRandomImage();
-        item.img = image.url;
+        item.imgUrl = image.url;
     }
 }
 

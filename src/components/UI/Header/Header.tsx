@@ -5,6 +5,7 @@ import UpperHeader from "@components/UI/Header/UpperHeader/UpperHeader.tsx"
 import {JSX} from "react"
 import Logo from "@components/UI/Header/Logo/Logo";
 import Catalog from "@components/UI/Header/Catalog/Catalog";
+import Controls from "@components/UI/Header/Controls/Controls";
 
 function Header(): JSX.Element {
     return (
@@ -15,11 +16,7 @@ function Header(): JSX.Element {
                     <Logo />
                     <Catalog />
                     <SearchHeader />
-                    {/*todo убрать чутка позже*/}
-                    <div className={cl.profile}>
-                        <button className={cl.user}></button>
-                        <button className={cl.cart}></button>
-                    </div>
+                    <Controls />
                 </Flex>
             </Layout.Header>
         </>
